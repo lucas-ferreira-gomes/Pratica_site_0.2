@@ -84,8 +84,83 @@ nav hr{
     border-radius: 50%;
     padding: 2px;
     margin: 20px auto;
+}
 
+.list__palavras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lista_um{
+    display: flex;
+    margin: 10px 0;
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+.lista_um p{
+    margin: 0px 10px;
+}
+.lista_um p:nth-child(1) {
+    background-color: #f0f0f0;
+
+}
+/*
+.lista_um p:nth-child(2) {
+    background-color: #0ad10a;
+    animation-duration: 20s;
+    animation-name: asa2;
+    animation-iteration-count: infinite;
+}
+.lista_um p:nth-child(3) {
+    background-color: #1880d4;
+    animation-duration: 50s;
+    animation-name: assdasd;
+    animation-iteration-count: infinite;
+}*/
+
+.lista_dois{
+    display: flex;
+    margin: 10px 0;
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+.lista_dois p:nth-child(2) {
+    background-color: #0ad10a;
+    animation-duration: 20s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+.lista_dois p:nth-child(3) {
+    background-color: #1880d4;
+    animation-duration: 50s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}*/
+
+.lista_tres{
+    display: flex;
+    margin: 10px 0;
 }
 
 
-/*      transform: rotate(10deg);  */
+/*     */
+
+  @keyframes tastesami {
+    0% {
+        margin-left: 100%;
+    }
+    100% {
+        margin-left: -100%; 
+    }
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: 150%; /* Começa fora da tela à direita */
+    }
+    100% {
+        margin-left: -150%; /* Volta ao início, à esquerda */
+    }
+}
