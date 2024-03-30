@@ -23,6 +23,7 @@ body{
     border-right: 2px solid var(--cor-pri);
     padding: 0 2%;
     margin: auto;
+    font-size: 21px;
 }
 .Menu__Hanb{
     display: flex;
@@ -40,7 +41,7 @@ nav hr{
 .corpo__inicio h1{
     font-size: 29px;
     text-align: end;
-    margin: 6% 0 5px auto;
+    margin: 6% 3% 5px auto;
 }
 
 .corpo__inicio hr:nth-child(2) {
@@ -55,7 +56,36 @@ nav hr{
     margin: auto 40% 0px auto;
 }
 
-.corpo__inicio{
+.corpo__inicio p{
+    margin: 8% 3% 3% auto;
+    font-size: 13px;
+    text-decoration: underline;
+}
+.botão__R {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid var(--cor-pri);
+    padding: 5px;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    margin: 20px auto;
+    transform: rotate(10deg);
+
+}
+.botão__Rot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid var(--cor-pri);
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 20px auto;
 
 }
 
+
+/*      transform: rotate(10deg);  */
