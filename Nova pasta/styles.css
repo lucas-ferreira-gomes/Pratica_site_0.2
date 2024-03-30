@@ -1,0 +1,61 @@
+/*////Variaveis/////////////////////////*/
+:root { 
+    --cor-pri: #000000;
+    --cor-fund: linear-gradient(to right,#B24592, #F15F79);
+    --font-cab: "Mate SC", serif;
+}
+/*/////////////////////////////////////*/
+body{
+    background-image: var(--cor-fund);
+}
+/*/////////////////////////////////////*/
+.Menu__incial{
+    margin: 5px 0;
+    font-family: var(--font-cab);
+}
+.Menu__incial__links{
+    display: flex;
+    justify-content: flex-end;
+}
+.icone_tela_central{
+    border: none;
+    border-left: 2px solid var(--cor-pri);
+    border-right: 2px solid var(--cor-pri);
+    padding: 0 2%;
+    margin: auto;
+}
+.Menu__Hanb{
+    display: flex;
+    flex-direction: column;
+}
+nav hr{
+    border: 1px solid var(--cor-pri);
+}
+/*/////////////////////////////////////*/
+.corpo__inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.corpo__inicio h1{
+    font-size: 29px;
+    text-align: end;
+    margin: 6% 0 5px auto;
+}
+
+.corpo__inicio hr:nth-child(2) {
+    width: 208px;
+    border: 1px solid var(--cor-pri);
+    margin: 0px 0px 0px auto;
+}
+.corpo__inicio hr:nth-child(3) {
+    border: 0.5px solid var(--cor-pri);
+    width: 37px;
+    transform: rotate(90deg);
+    margin: auto 40% 0px auto;
+}
+
+.corpo__inicio{
+
+}
+
