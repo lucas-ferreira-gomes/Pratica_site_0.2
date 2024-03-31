@@ -234,5 +234,6 @@ nav hr{
 }
 /*///////////////*/
 .fundo_pag{
+    position: absolute;
     bottom: 0;
 }
