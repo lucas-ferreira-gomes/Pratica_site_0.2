@@ -67,6 +67,9 @@
 /*/////////////////////////////////////*/
 body{
     background-image: var(--cor-fund);
+    width: 100%; /* Defina a largura desejada */
+    height: 100%; /* Defina a altura desejada */
+    overflow: hidden;
 }
 /*/////////////////////////////////////*/
 .Menu__incial{
