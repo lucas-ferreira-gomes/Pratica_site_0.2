@@ -173,6 +173,7 @@ nav hr{
     font-size: 30px;
     animation: anim_palav 5s linear infinite;
     position: fixed;
+    top: 47%;
 }
 
 .lista_um p:nth-child(2){
@@ -195,6 +196,7 @@ nav hr{
     font-size: 30px;
     animation: anim_palav 5s linear infinite;
     position: fixed;
+    top: 61%;
 }
 .lista_tres p:nth-child(2){
     font-family: var(--fonte-2);
@@ -224,7 +226,7 @@ nav hr{
     font-size: 30px;
     animation: anim_palavreve 5s linear infinite;
     position: fixed;
-    top: 50%;
+    top: 54%;
 }
 .lista_dois p:nth-child(2){
     font-family: var(--fonte-2);
