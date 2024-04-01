@@ -172,8 +172,7 @@ nav hr{
     animation-delay: 0s;
     font-size: 30px;
     animation: anim_palav 5s linear infinite;
-    position: fixed;
-    top: 43%;
+    position: relative;
 }
 
 .lista_um p:nth-child(2){
@@ -195,8 +194,7 @@ nav hr{
     animation-delay: 0s;
     font-size: 30px;
     animation: anim_palav 5s linear infinite;
-    position: fixed;
-    top: 56%;
+    position: relative;
 }
 .lista_tres p:nth-child(2){
     font-family: var(--fonte-2);
@@ -225,8 +223,7 @@ nav hr{
     animation-delay: 0s;
     font-size: 30px;
     animation: anim_palavreve 5s linear infinite;
-    position: fixed;
-    top: 50%;
+    position: relative;
 }
 .lista_dois p:nth-child(2){
     font-family: var(--fonte-2);
