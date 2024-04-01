@@ -150,97 +150,101 @@ nav hr{
 }
 /***********************************************/
 
-
-.list__palavras{
-
+.list__palavras {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: var(--cor-seg);
-
 }
 
-.lista_um{
+.lista_um {
     background-color: aqua;
     display: flex;
-
 }
 
-.lista_um p{
+.lista_um p {
     margin: 20px 10px;
     font-family: var(--fonte-1);
-    animation-delay: 0s;
     font-size: 30px;
-    animation: anim_palav 5s linear infinite;
     position: fixed;
     top: 47%;
+    animation: anim_palav 5s linear infinite;
 }
 
-.lista_um p:nth-child(2){
+.lista_um p:nth-child(2) {
     font-family: var(--fonte-2);
     animation-delay: -1.67s;
 }
-.lista_um p:nth-child(3){
+
+.lista_um p:nth-child(3) {
     font-family: var(--fonte-3);
     animation-delay: -3.33s;
 }
-/*//////////////////*/
-.lista_tres{
+
+.lista_tres {
     display: flex;
 }
 
-.lista_tres p{
+.lista_tres p {
     margin: 20px 10px;
     font-family: var(--fonte-1);
-    animation-delay: 0s;
     font-size: 30px;
-    animation: anim_palav 5s linear infinite;
     position: fixed;
     top: 61%;
+    animation: anim_palav 5s linear infinite;
 }
-.lista_tres p:nth-child(2){
+
+.lista_tres p:nth-child(2) {
     font-family: var(--fonte-2);
     animation-delay: -1.67s;
 }
-.lista_tres p:nth-child(3){
+
+.lista_tres p:nth-child(3) {
     font-family: var(--fonte-3);
     animation-delay: -3.33s;
-    
-}
-/*///////////////*/
-@keyframes anim_palav { 
-    0% { left: -50% }
-    100% { left: 100% } 
 }
 
-/*///////////////*/
-
-.lista_dois{
+.lista_dois {
     display: flex;
-    
 }
-.lista_dois p{
+
+.lista_dois p {
     margin: 20px 10px;
     font-family: var(--fonte-1);
-    animation-delay: 0s;
     font-size: 30px;
-    animation: anim_palavreve 5s linear infinite;
     position: fixed;
     top: 54%;
+    animation: anim_palavreve 5s linear infinite;
 }
-.lista_dois p:nth-child(2){
+
+.lista_dois p:nth-child(2) {
     font-family: var(--fonte-2);
     animation-delay: -1.67s;
 }
-.lista_dois p:nth-child(3){
+
+.lista_dois p:nth-child(3) {
     font-family: var(--fonte-3);
     animation-delay: -3.33s;
 }
-/*///////////////*/
-@keyframes anim_palavreve {
-    0% { left: 100% ; }
-    100% { left: -50% } 
+
+@keyframes anim_palav {
+    0% {
+        left: -50%;
+    }
+    100% {
+        left: 100%;
+    }
 }
+
+@keyframes anim_palavreve {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: -50%;
+    }
+}
+
 /*///////////////*/
 .fundo_pag{
     position: absolute;
