@@ -57,7 +57,8 @@
 :root { 
     --cor-pri: #000000;
     --cor-seg: #2C001E;
-    --cor-fund: linear-gradient(to right,#B24592, #F15F79);
+    /*--cor-fund: linear-gradient(to right,#B24592, #F15F79);*/
+    --cor-fund: #2c92b1;
     --font-cab: "Mate SC", serif;
 
     --fonte-1: "Fjalla One", sans-serif;
