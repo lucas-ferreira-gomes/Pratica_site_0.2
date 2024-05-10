@@ -57,8 +57,7 @@
 :root { 
     --cor-pri: #000000;
     --cor-seg: #2C001E;
-    /*--cor-fund: linear-gradient(to right,#B24592, #F15F79);*/
-    --cor-fund: #2c92b1;
+    --cor-fund: linear-gradient(to right,#B24592, #F15F79);
     --font-cab: "Mate SC", serif;
 
     --fonte-1: "Fjalla One", sans-serif;
@@ -156,6 +155,7 @@ nav hr{
     flex-direction: column;
     align-items: center;
     color: var(--cor-seg);
+    overflow: hidden; /* Para esconder o overflow */
 }
 
 .lista_um {
