@@ -57,8 +57,7 @@
 :root { 
     --cor-pri: #000000;
     --cor-seg: #2C001E;
-  /*  --cor-fund: linear-gradient(to right,#B24592, #F15F79); */
-    --cor-fund: linear-gradient(to right,#460733, #296e14);
+    --cor-fund: linear-gradient(to right,#B24592, #F15F79);
     --font-cab: "Mate SC", serif;
 
     --fonte-1: "Fjalla One", sans-serif;
@@ -171,7 +170,6 @@ nav hr{
     position: fixed;
     top: 47%;
     animation: anim_palav 5s linear infinite;
-    overflow: hidden; /* Para esconder o overflow */
 }
 
 .lista_um p:nth-child(2) {
